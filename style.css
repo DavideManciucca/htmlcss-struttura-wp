@@ -9,15 +9,14 @@
   clear: both;
 }
 main{
-  
-  height: 2000px;
-  margin: 20px;auto;
+  margin: 20px;
 }
 
 header{
   height: 70px;
   background-color: rgb(144, 75, 207);
   margin-top: 2%;
+  margin: 20px;
 }
 .img{
   height: 400px;
@@ -28,16 +27,31 @@ header{
 .row{
   background-color: rgb(133, 133, 255);
   height: 50px;
-  margin-bottom: 2px;
+  margin-bottom: 2%;
 }
 .col{
   float: left;
   background-color:rgb(133, 133, 255);
+ 
 }
-.sx{
+.col.sx{
   height: 500px;
+  width: 200px;
+  margin-right: 30px;
 }
-.dx{
+.col.dx{
   float: right;
   height: 500px;
+  margin-left: 30px;
+  width:200px;
+}
+.col.center{
+  height: 500px;
+  width: 763px;
+}
+footer{
+  height: 40px;
+  background-color: purple;
+  margin-bottom: 10px;
+  margin: 20px;
 }
