@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+main{
+  
+  height: 2000px;
+  margin: 20px;auto;
+}
+
+header{
+  height: 70px;
+  background-color: rgb(144, 75, 207);
+  margin-top: 2%;
+}
+.img{
+  height: 400px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color:rgb(226, 226, 100);
+}
+.row{
+  background-color: rgb(133, 133, 255);
+  height: 50px;
+  margin-bottom: 2px;
+}
+.col{
+  float: left;
+  background-color:rgb(133, 133, 255);
+}
+.sx{
+  height: 500px;
+}
+.dx{
+  float: right;
+  height: 500px;
+}
